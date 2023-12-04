@@ -1081,7 +1081,12 @@
     "/btzj/:category?": [
         "nczitzk"
     ],
-    "/buaa/news/:type": [],
+    "/buaa/news/:type": [
+        "AlanDecode"
+    ],
+    "/buaa/sme/:path*": [
+        "MeanZhang"
+    ],
     "/buaq": [],
     "/bugly/changelog/:platform": [],
     "/bupt/funbox": [],
@@ -1431,6 +1436,9 @@
     ],
     "/cna/:id?": [
         "nczitzk"
+    ],
+    "/cna/web/:id?": [
+        "dzx-dzx"
     ],
     "/cnbc/rss/:id?": [
         "TonyRL"
@@ -3116,6 +3124,9 @@
     ],
     "/greasyfork/scripts/:script/versions": [
         "miles170"
+    ],
+    "/greasyfork/scripts/sort/:sort/:language?": [
+        "ingjieye"
     ],
     "/grist": [
         "Rjnishant530"
@@ -5452,8 +5463,9 @@
         "TonyRL"
     ],
     "/pgyer/:app?": [],
-    "/phoronix/:page/:queryOrItem?": [
-        "oppliate"
+    "/phoronix/:category?/:topic?": [
+        "oppliate",
+        "Rongronggg9"
     ],
     "/phrack": [],
     "/pianyuan/index/:media?": [
