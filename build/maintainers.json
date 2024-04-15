@@ -174,9 +174,6 @@
   "/500px/tribe/set/:id": [
     "TonyRL"
   ],
-  "/500px/user/works/:id": [
-    "TonyRL"
-  ],
   "/50forum/": [
     "sddiky"
   ],
@@ -473,6 +470,9 @@
   "/atcoder/post/:language?/:keyword?": [
     "nczitzk"
   ],
+  "/atptour/news/:lang?": [
+    "LM1207"
+  ],
   "/auto-stats/:category?": [
     "nczitzk"
   ],
@@ -701,7 +701,8 @@
     "DIYgod"
   ],
   "/bilibili/vsearch/:kw/:order?/:disableEmbed?/:tid?": [
-    "Symty"
+    "pcrtool",
+    "DIYgod"
   ],
   "/bilibili/watchlater/:uid/:disableEmbed?": [
     "JimenezLi"
@@ -791,8 +792,9 @@
   "/bloomberg/authors/:id/:slug/:source?": [
     "josh"
   ],
-  "/bloomberg/:site": [],
-  "/bloomberg/": [],
+  "/bloomberg/:site?": [
+    "bigfei"
+  ],
   "/bluestacks/release/5": [
     "TonyRL"
   ],
@@ -844,7 +846,9 @@
   "/btzj/:category?": [
     "nczitzk"
   ],
-  "/buaa/sme/:path{.+}?": [],
+  "/buaa/sme/:path{.+}?": [
+    "MeanZhang"
+  ],
   "/buaa/news/:type": [
     "AlanDecode"
   ],
@@ -1417,6 +1421,9 @@
   "/dedao/user/:id/:type?": [
     "nczitzk"
   ],
+  "/deepin/homepage/:user_id": [
+    "tensor-tech"
+  ],
   "/deeplearning/thebatch": [
     "nczitzk",
     "juvenn"
@@ -1777,6 +1784,9 @@
   ],
   "/eprice/:region?": [
     "TonyRL"
+  ],
+  "/esquirehk/tag/:id?": [
+    "nczitzk"
   ],
   "/europechinese/latest": [
     "emdoe"
@@ -2248,6 +2258,9 @@
   "/gov/jgjcndrc/:id?": [
     "nczitzk"
   ],
+  "/gov/jiangsu/wlt/:page?": [
+    "GideonSenku"
+  ],
   "/gov/jinan/healthcommission/medical_exam_notice": [
     "tzjyxb"
   ],
@@ -2286,7 +2299,10 @@
     "Yoge-Code"
   ],
   "/gov/mmht/*": [],
-  "/gov/moa/:suburl{.+}": [],
+  "/gov/moa/:suburl{.+}": [
+    "Origami404",
+    "lyqluis"
+  ],
   "/gov/moa/sjzxfb/:category{.+}?": [],
   "/gov/moa/zdscxx/:category{.+}?": [],
   "/gov/moe/:type": [
@@ -2620,6 +2636,9 @@
   ],
   "/hit/today/:category": [
     "ranpox"
+  ],
+  "/hitcon/zeroday/vulnerability/:status?": [
+    "KarasuShin"
   ],
   "/hitsz/article/:category?": [
     "xandery-geek"
@@ -2966,6 +2985,9 @@
   ],
   "/issuehunt/funded/:username/:repo": [
     "running-grass"
+  ],
+  "/itc/collection/:colType": [
+    "cnkmmk"
   ],
   "/itch/devlog/:user/:id": [
     "nczitzk"
@@ -3785,7 +3807,8 @@
   "/nikkei/": [],
   "/nikkei/index": [],
   "/nikkei/:category/:article_type?": [
-    "Arracc"
+    "Arracc",
+    "ladeng07"
   ],
   "/nikkei/asia": [
     "rainrdx"
@@ -3864,6 +3887,9 @@
   ],
   "/njucm/grabszs": [
     "real-jiakai"
+  ],
+  "/njuferret/blog": [
+    "tyl0622"
   ],
   "/njupt/jwc/:type?": [
     "shaoye"
@@ -4196,7 +4222,9 @@
   "/panewslab/topic/:id": [
     "nczitzk"
   ],
-  "/papers/:category{.+}?": [],
+  "/papers/:category{.+}?": [
+    "nczitzk"
+  ],
   "/paradigm/writing": [
     "Fatpandac"
   ],
@@ -6000,6 +6028,9 @@
   "/wnacg/tag/:tag": [
     "KenMizz"
   ],
+  "/wordpress/:url?/:filter{.+}?": [
+    "nczitzk"
+  ],
   "/worldjournal/:path{.+}?": [],
   "/woshipm/popular/:range?": [
     "WenryXu"
@@ -6117,7 +6148,9 @@
   "/xinpianchang/rank/:category?": [
     "nczitzk"
   ],
-  "/xjtu/dean/:subpath{.+}": [],
+  "/xjtu/dean/:subpath{.+}": [
+    "hoilc"
+  ],
   "/xjtu/ee/:id?": [
     "DylanXie123"
   ],
@@ -6455,7 +6488,10 @@
   "/zhiy/posts/:author": [
     "TonyRL"
   ],
-  "/zhubai/:id": [
+  "/zhonglun/research/article/:language{[a-zA-Z0-9-]+}?": [
+    "nczitzk"
+  ],
+  "/zhubai/posts/:id": [
     "naixy28"
   ],
   "/zhubai/top20": [

@@ -312,21 +312,6 @@
       }
     ]
   },
-  "500px.com.cn": {
-    "_name": "500px 摄影社区",
-    ".": [
-      {
-        "title": "摄影师作品",
-        "docs": "https://docs.rsshub.app/routes/picture",
-        "source": [
-          "/:id",
-          "/community/user-details/:id",
-          "/community/user-details/:id/*"
-        ],
-        "target": "/500px/user/works/:id"
-      }
-    ]
-  },
   "50forum.org.cn": {
     "_name": "经济 50 人论坛",
     ".": [
@@ -740,6 +725,16 @@
         ],
         "target": "/agora0/pen0"
       }
+    ],
+    "njuferret": [
+      {
+        "title": "Blogs",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/"
+        ],
+        "target": "/njuferret/blog"
+      }
     ]
   },
   "ahjzu.edu.cn": {
@@ -1137,6 +1132,19 @@
           "/"
         ],
         "target": "/asus/gpu-tweak"
+      }
+    ]
+  },
+  "atptour.com": {
+    "_name": "ATP Tour",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/other",
+        "source": [
+          "/"
+        ],
+        "target": "/atptour/news/:lang?"
       }
     ]
   },
@@ -3388,6 +3396,14 @@
     "_name": "DCFever",
     ".": [
       {
+        "title": "新聞中心",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/news/index.php"
+        ],
+        "target": "/dcfever/news"
+      },
+      {
         "title": "測試報告",
         "docs": "https://docs.rsshub.app/routes/new-media",
         "source": [
@@ -4227,6 +4243,20 @@
           "/:locale/free-games"
         ],
         "target": "/epicgames/freegames/:locale"
+      }
+    ]
+  },
+  "esquirehk.com": {
+    "_name": "Esquire Hong Kong",
+    "www": [
+      {
+        "title": "Tag",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/tag/:id",
+          "/:id"
+        ],
+        "target": "/esquirehk/tag/:id?"
       }
     ]
   },
@@ -5432,6 +5462,19 @@
       }
     ]
   },
+  "jiangsu.gov.cn": {
+    "_name": "中国人民银行",
+    "wlt": [
+      {
+        "title": "江苏文旅局审批公告",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/jiangsu/wlt"
+      }
+    ]
+  },
   "jinan.gov.cn": {
     "_name": "中国人民银行",
     "jnmhc": [
@@ -5496,7 +5539,7 @@
     "_name": "中国人民银行",
     ".": [
       {
-        "title": "Unknown",
+        "title": "中华人民共和国农业农村部 - 新闻",
         "docs": "https://docs.rsshub.app/routes/government",
         "source": [
           "/"
@@ -6295,6 +6338,19 @@
           "/category/:category"
         ],
         "target": "/hit/today/:category"
+      }
+    ]
+  },
+  "hitcon.org": {
+    "_name": "HITCON",
+    "zeroday": [
+      {
+        "title": "漏洞",
+        "docs": "https://docs.rsshub.app/routes/programming",
+        "source": [
+          "/vulnerability/:status"
+        ],
+        "target": "/hitcon/zeroday/vulnerability/:status?"
       }
     ]
   },
@@ -7351,6 +7407,19 @@
           "/report.shtml"
         ],
         "target": "/iresearch/report"
+      }
+    ]
+  },
+  "itc.cn": {
+    "_name": "Open Github社区",
+    "open": [
+      {
+        "title": "合集",
+        "docs": "https://docs.rsshub.app/routes/blog",
+        "source": [
+          "/"
+        ],
+        "target": "/itc/collection/:colType"
       }
     ]
   },
@@ -8648,6 +8717,29 @@
           "/page/info/mio/mio/homePage"
         ],
         "target": "/miui(_,url)=>`/miui/community/user/${new URL(url).searchParams.get(\"uid\")}`"
+      }
+    ]
+  },
+  "mixcloud.com": {
+    "_name": "Mixcloud",
+    ".": [
+      {
+        "title": "User",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/:username/:type"
+        ],
+        "target": "/mixcloud/:username/:type?"
+      }
+    ],
+    "www": [
+      {
+        "title": "User",
+        "docs": "https://docs.rsshub.app/routes/multimedia",
+        "source": [
+          "/:username/:type"
+        ],
+        "target": "/mixcloud/:username/:type?"
       }
     ]
   },
@@ -10203,6 +10295,43 @@
       }
     ]
   },
+  "papers.cool": {
+    "_name": "Cool Papers",
+    ".": [
+      {
+        "title": "arXiv Artificial Intelligence (cs.AI)",
+        "docs": "https://docs.rsshub.app/routes/journal",
+        "source": [
+          "/arxiv/cs.AI"
+        ],
+        "target": "/papers/arxiv/cs.AI"
+      },
+      {
+        "title": "arXiv Computation and Language (cs.CL)",
+        "docs": "https://docs.rsshub.app/routes/journal",
+        "source": [
+          "/arxiv/cs.CL"
+        ],
+        "target": "/papers/arxiv/cs.CL"
+      },
+      {
+        "title": "arXiv Computer Vision and Pattern Recognition (cs.CV)",
+        "docs": "https://docs.rsshub.app/routes/journal",
+        "source": [
+          "/arxiv/cs.CV"
+        ],
+        "target": "/papers/arxiv/cs.CV"
+      },
+      {
+        "title": "arXiv Machine Learning (cs.LG)",
+        "docs": "https://docs.rsshub.app/routes/journal",
+        "source": [
+          "/arxiv/cs.LG"
+        ],
+        "target": "/papers/arxiv/cs.LG"
+      }
+    ]
+  },
   "paradigm.xyz": {
     "_name": "Paradigm",
     ".": [
@@ -10353,8 +10482,8 @@
     "_name": "Instagram",
     ".": [
       {
-        "title": "Unknown",
-        "docs": "https://docs.rsshub.app/routes/other",
+        "title": "User Profile - Picnob",
+        "docs": "https://docs.rsshub.app/routes/social-media",
         "source": [
           "/profile/:id/*"
         ],
@@ -16113,6 +16242,49 @@
           "/:author"
         ],
         "target": "/zhiy/posts/:author"
+      }
+    ]
+  },
+  "zhonglun.com": {
+    "_name": "中伦律师事务所",
+    ".": [
+      {
+        "title": "专业文章",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/research/articles"
+        ],
+        "target": "/zhonglun/research/article/zh"
+      }
+    ],
+    "en": [
+      {
+        "title": " Articles",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/research/articles"
+        ],
+        "target": "/zhonglun/research/article/en"
+      }
+    ],
+    "ja": [
+      {
+        "title": "論評",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/research/articles"
+        ],
+        "target": "/zhonglun/research/article/ja"
+      }
+    ],
+    "kr": [
+      {
+        "title": "전문기사",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/research/articles"
+        ],
+        "target": "/zhonglun/research/article/kr"
       }
     ]
   },
