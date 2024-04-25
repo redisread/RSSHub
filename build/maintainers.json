@@ -485,15 +485,12 @@
   "/auto-stats/:category?": [
     "nczitzk"
   ],
-  "/baai/hub/comments": [
-    "TonyRL"
-  ],
   "/baai/hub/events": [
     "TonyRL"
   ],
-  "/baai/hub/:tagId/:sort?/:range?": [],
-  "/baai/hub/:tagId/:sort?": [],
-  "/baai/hub/:sort?": [],
+  "/baai/hub/:tagId?/:sort?/:range?": [
+    "TonyRL"
+  ],
   "/backlinko/blog": [
     "TonyRL"
   ],
@@ -826,6 +823,9 @@
   "/bnu/lib/:category?": [
     "TonyRL"
   ],
+  "/bnu/mba/:category{.+}?": [
+    "nczitzk"
+  ],
   "/boc/whpj/:format?": [
     "LogicJake",
     "HenryQW"
@@ -866,6 +866,9 @@
   ],
   "/bupt/rczp": [
     "nczitzk"
+  ],
+  "/byau/news/:type_id": [
+    "ueiu"
   ],
   "/byteclicks/": [
     "TonyRL"
@@ -1221,6 +1224,9 @@
   "/coindesk/consensus-magazine": [
     "jameshih"
   ],
+  "/colamanga/:id": [
+    "machsix"
+  ],
   "/comicat/search/:keyword": [
     "Cyang39"
   ],
@@ -1267,6 +1273,9 @@
     "btdwv",
     "marvolo666",
     "yan12125"
+  ],
+  "/cpcaauto/news/:type?/:id?": [
+    "nczitzk"
   ],
   "/cpcey/:type?": [
     "Fatpandac"
@@ -1730,6 +1739,9 @@
   ],
   "/ecnu/acm/contest/:category?": [
     "a180285"
+  ],
+  "/ecnu/jwc": [
+    "markbang"
   ],
   "/ecnu/yjs": [
     "shengmaosu"
@@ -2455,6 +2467,9 @@
   ],
   "/gov/zhengce/zhengceku/:department": [
     "zxx-457"
+  ],
+  "/gov/zj/search/:websiteid?/:word/:cateid?": [
+    "HaoyuLee"
   ],
   "/greasyfork/scripts/:script/feedback": [
     "miles170"
@@ -3336,6 +3351,9 @@
   "/lfsyd/user/:id?": [
     "auto-bot-ty"
   ],
+  "/lianxh/:category?": [
+    "nczitzk"
+  ],
   "/lifeweek/channel/:id": [],
   "/lifeweek/tag/:id": [],
   "/lightnovel/:keywords/:security_key?": [
@@ -3387,11 +3405,13 @@
   ],
   "/lofter/tag/:name?/:type?": [
     "hoilc",
-    "nczitzk"
+    "nczitzk",
+    "LucunJi"
   ],
   "/lofter/user/:name?": [
     "hondajojo",
-    "nczitzk"
+    "nczitzk",
+    "LucunJi"
   ],
   "/logclub/:category{.+}?": [],
   "/logclub/lc_report/:id?": [
@@ -4985,7 +5005,9 @@
   "/sicau/zsjy/:category?": [
     "nczitzk"
   ],
-  "/sigsac/ccs": [],
+  "/sigsac/ccs": [
+    "ZeddYu"
+  ],
   "/simpleinfo/:category?": [
     "haukeng"
   ],
@@ -5193,6 +5215,9 @@
   ],
   "/stdaily/digitalpaper": [
     "lyqluis"
+  ],
+  "/steam/appcommunityfeed/:appid/:routeParams?": [
+    "NyaaaDoge"
   ],
   "/steam/search/:params": [
     "moppman"
@@ -6568,6 +6593,12 @@
   ],
   "/zrblog/": [
     "cnkmmk"
+  ],
+  "/zsxq/group/:id/:scope?": [
+    "KarasuShin"
+  ],
+  "/zsxq/user/:id": [
+    "KarasuShin"
   ],
   "/zuel/notice": [
     "nczitzk"
